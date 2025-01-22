@@ -1,0 +1,130 @@
+/* Skillset Section Styles */
+section.skillset-section {
+    background-color: var(--dark-primary);
+  color: #fff;
+  padding: 50px 120px;
+    text-align: center;
+  }
+  
+  .skillset-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color:#fff; /* Dark color for the heading */
+  }
+  
+  .skillset-section h2 > span {
+    color:#03506e; /* Unique accent color */
+  }
+  
+  .skillset-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skillset-card {
+    background-color: #22282f;
+    border: 2px solid #03506e; /* Accent border color */
+ 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skillset-card:hover {
+    box-shadow: 3px 5px 20px #03506e;
+  transition: all 0.5s ease 0s;
+  transform: translateY(-2px);
+  }
+  
+  .skillset-card h4 {
+    font-size: 1.5rem;
+    color:#03506e; 
+    margin-bottom: 15px;
+  }
+  
+  .skillset-card p {
+    font-size: 1rem;
+    color: #fff; /* Slightly lighter text for description */
+    line-height: 1.6;
+  }
+  
+  .skillset-card__icons > i {
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid#03506e; /* Accent border for icons */
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .skillset-card:hover .skillset-card__icons > i {
+    background-color:#03506e; /* Highlight icon background on hover */
+    color: #fff; /* Change icon color */
+  }
+  
+  .skillset-card__buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skillset-card__buttons button {
+    background-color:#03506e; /* Button background color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skillset-card__buttons button:hover {
+    background-color:#03506e; /* Darker shade on hover */
+  }
+  
+  .skillset-card__buttons button > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .skillset-card__buttons button:hover a {
+    color: #fff;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 768px) {
+    section.skillset-section {
+      padding: 40px;
+    }
+  
+    .skillset-cards {
+      flex-direction: column;
+    }
+  
+    .skillset-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+    /* Skillset Section Styles */
+section.skillset-section {
+  background-color: var(--dark-primary);
+  color: #fff;
+  padding: 50px 120px;
+  margin-bottom: 50px; /* Adds space below skillset section */
+}
+
+section.contact-section {
+  padding: 50px 120px;
+  margin-top: 50px; /* Adds space above contact section */
+}
+
+/* You may want to adjust the padding and margin depending on how much space you need */
+
+  }
+  
